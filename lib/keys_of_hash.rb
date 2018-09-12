@@ -1,11 +1,11 @@
 class Hash
 
   def keys_of(*arguments)
-    array = []
-      arguments.each do |a|
-        if a == arguments
-          array << a
-        end
+    arr = []
+      self.each do |k, v|
+        arguments.each do |arg|
+          if arg == value
+            arr.push(k)
       end
   end
 

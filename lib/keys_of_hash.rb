@@ -6,8 +6,9 @@ class Hash
         arguments.each do |arg|
           if arg == value
             arr.push(k)
+          end
       end
+      arr
   end
-
 
 end

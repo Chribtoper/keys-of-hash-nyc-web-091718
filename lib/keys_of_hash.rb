@@ -7,6 +7,7 @@ class Hash
           if arg == value
             arr.push(k)
           end
+        end
       end
       arr
   end

@@ -4,7 +4,7 @@ class Hash
     arr = []
       self.each do |k, v|
         arguments.each do |arg|
-          if arg == value
+          if arg == v
             arr.push(k)
           end
         end
